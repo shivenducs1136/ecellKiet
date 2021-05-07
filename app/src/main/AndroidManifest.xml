@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ecellkiet">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/eeecceeell"
+        android:label="e-Cell KIET"
+        android:roundIcon="@drawable/eeecceeell"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
+        <activity android:name=".AboutUs"></activity>
+        <activity android:name=".ContactUs"></activity>
+        <activity android:name=".ecell"></activity>
+        <activity android:name=".events"></activity>
+        <activity android:name=".Gallery"></activity>
+        <activity android:name=".Initiatives"></activity>
+        <activity android:name=".team"></activity>
+
+
+
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

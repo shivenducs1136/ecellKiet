@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.main);
 
         events = (CardView) findViewById(R.id.events);
         team = (CardView) findViewById(R.id.team);
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         gallery = (CardView) findViewById(R.id.gallery);
         about = (CardView) findViewById(R.id.about);
         contact = (CardView) findViewById(R.id.contact);
-        ecell = (CircleImageView) findViewById(R.id.ecellkiet);
+      //  ecell = (CircleImageView) findViewById(R.id.ecellkiet);
 
         events.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,13 +75,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        ecell.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, ecell.class);
-                startActivity(i);
-            }
-        });
+
 
 
     }

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ecellkiet">
-
+<uses-permission android:name="android.permission.INTERNET"/>
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@drawable/eeecceeell"
         android:label="e-Cell KIET"
@@ -12,6 +13,7 @@
         <activity android:name=".AboutUs"></activity>
         <activity android:name=".ContactUs"></activity>
         <activity android:name=".ecell"></activity>
+
         <activity android:name=".events"></activity>
         <activity android:name=".Gallery"></activity>
         <activity android:name=".Initiatives"></activity>

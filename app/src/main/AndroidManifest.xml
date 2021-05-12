@@ -5,23 +5,16 @@
     <application
         android:name=".MyApplication"
         android:allowBackup="true"
-        android:icon="@drawable/eeecceeell"
+        android:icon="@drawable/ecell"
         android:label="e-Cell KIET"
-        android:roundIcon="@drawable/eeecceeell"
+        android:roundIcon="@drawable/ecell"
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
-        <activity android:name=".AboutUs"></activity>
-        <activity android:name=".ContactUs"></activity>
-        <activity android:name=".ecell"></activity>
 
-        <activity android:name=".events"></activity>
-        <activity android:name=".Gallery"></activity>
-        <activity android:name=".Initiatives"></activity>
         <activity android:name=".team"></activity>
+        <activity android:name=".MainActivity2"></activity>
 
 
-
-        <activity android:name=".MainActivity" />
         <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
